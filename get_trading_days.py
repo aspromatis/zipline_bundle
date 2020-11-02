@@ -26,3 +26,4 @@ trading_days[trading_days == '2018-12-05']
 with open('trading_calendar.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(trading_days)
+# %%

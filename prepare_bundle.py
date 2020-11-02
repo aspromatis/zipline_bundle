@@ -61,4 +61,5 @@ def format_bundle(indir, outdir):
 
 
 #%%  Execute the function to format the files
-format_bundle('data/bars_adj', 'data/csvs')
+format_bundle('data/bars_adj', 'data/csvs/daily')
+# %%
